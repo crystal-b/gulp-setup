@@ -131,7 +131,7 @@ gulp.task('watch', ['browserSync', 'sass'], function() {
 ```
 
 **Note:** If you didn’t use **app** as the name for the folder within your project folder, you’ll have to change every app in the code above to the name you used
-
+<br>
 
 
 **9)  Now open your package.json file in Sublime and add the name for your gulp task in the “scripts” object. There’s probably already a test task in the “scripts” object, you can delete it if you want to and just write the following:**
