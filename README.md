@@ -3,12 +3,12 @@
 ##### Why bother?
 Task managers like Gulp let you be lazy/smart and code faster/easier 
 ##### What you need to know: A few terminal commands
-cd = move to a directory (folder)
-mkdir = create a new directory
-touch = create a new file
-npm = node package manager
--g = global (you will only have to install on your computer once)
-sudo = super user do (forces your computer to install things)
+* cd = move to a directory (folder)
+* mkdir = create a new directory
+* touch = create a new file
+* npm = node package manager
+* -g = global (you will only have to install on your computer once)
+* sudo = super user do (forces your computer to install things)
 <br><br>
 
 
@@ -99,7 +99,7 @@ $ npm install gulp-autoprefixer --save-dev
 // add all of your libraries
 var gulp = require('gulp');
 var sass = require('gulp-sass');
-var autoprefixer = require('autoprefixer');
+var autoprefixer = require('gulp-autoprefixer');
 var browserSync = require('browser-sync').create();
 
 // function to convert sass into css
