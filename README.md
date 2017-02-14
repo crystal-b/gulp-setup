@@ -9,7 +9,7 @@ touch = create a new file
 npm = node package manager
 -g = global (you will only have to install on your computer once)
 sudo = super user do (forces your computer to install things)
-<br>
+<br><br>
 
 
 **1)  Open terminal and move to your project folder or make a folder for your project and then move to it**
