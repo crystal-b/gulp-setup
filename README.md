@@ -9,6 +9,7 @@ touch = create a new file
 npm = node package manager
 -g = global (you will only have to install on your computer once)
 sudo = super user do (forces your computer to install things)
+<br>
 
 
 **1)  Open terminal and move to your project folder or make a folder for your project and then move to it**
@@ -27,6 +28,7 @@ $ npm install -g gulp
 ```sh
 $ sudo npm install -g gulp
 ```
+<br>
 
 
 **3)  Initialize your project and follow the steps to create a package.json file**
@@ -40,14 +42,15 @@ $ npm init
 ```sh
 $ npm install nameOfLibrary --save-dev
 ```
+<br>
 
 
 **4)  Add Gulp to package.json as a dependency**
 ```sh
 $ npm install gulp --save-dev
 ```
+<br>
 
-  
 
 **5)  Set up some more folders to organize your project and help automate your workflow**
 * Create a folder that will hold all of your html, css/scss, js. I call it app, but you do you
@@ -65,12 +68,14 @@ $ mkdir js
 ```sh
 $ cd ..
 ```	
+<br>
 
 
 **6)  Create a file to hold your Gulp scripts**
 ```sh
 $ touch gulpfile.js
 ```
+<br>
 
 
 **7)  Install the other libraries you want to use**
@@ -86,7 +91,7 @@ $ npm install browser-sync --save-dev
 ```sh
 $ npm install gulp-autoprefixer --save-dev
 ```
-
+<br>
 
 
 **8)  Open up your gulpfile.js in Sublime or whatever text editor you use. Now write your Gulp scripts**
@@ -136,7 +141,7 @@ gulp.task('watch', ['browserSync', 'sass'], function() {
 	“gulp watch”: “watch”
 },
 ```
-
+<br>
 
 
 **10)  In terminal, move back into your app folder and create an index.html file. Browser-sync will look for this file when refreshing the browser**
@@ -144,7 +149,7 @@ gulp.task('watch', ['browserSync', 'sass'], function() {
 $ cd app
 $ touch index.html
 ```
-
+<br>
 
 
 **11)  That’s pretty much it. Just move back to your project folder in terminal and start your task runner. As long as something is in your index.html file, it will now show up in your browser**
@@ -154,7 +159,7 @@ $ gulp watch
 ```
 
 **Bonus:** Browser-sync also creates a temporary server. Check terminal for the external url that you can send to people while Gulp is running
-
+<br>
 
 
  **12)  Maybe spend your extra free time making smoothies**
