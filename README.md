@@ -16,12 +16,14 @@ sudo = super user do (forces your computer to install things)
 $ mkdir gulp-setup
 $ cd gulp-setup
 ```
+<br>
+
 
 **2)  Install Gulp**
 ```sh
 $ npm install -g gulp
 ```
-NOTE: Warnings are okay, but if you get any errors try installing again as sudo
+**Note:** Warnings are okay, but if you get any errors try installing again as sudo
 ```sh
 $ sudo npm install -g gulp
 ```
